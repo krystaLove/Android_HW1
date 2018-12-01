@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TestCalc</string>
+    <string name="first_et_hint">First number</string>
+    <string name="second_et_hint">Second number</string>
+    <string name="result_tw_hint">Result</string>
+    <string name="add_sign">+</string>
+    <string name="subtract_sign">-</string>
+    <string name="multiply_sign">*</string>
+    <string name="divide_sign">/</string>
+    <string name="snackbar_message_1">Enter both numbers</string>
+    <string name="snackbar_message_2">Choose another numbers</string>
+</resources>
