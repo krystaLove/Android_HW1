@@ -6,7 +6,6 @@ import android.support.design.widget.Snackbar
 import android.view.View
 import android.widget.Button
 import kotlinx.android.synthetic.main.activity_main.*
-import java.lang.Math.round
 
 
 class MainActivity : AppCompatActivity() {
