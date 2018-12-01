@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun calculate(v: View) {
-        if(firstET.text.isEmpty()||secondET.text.toString().isEmpty())
+        if(firstET.text.isEmpty()||secondET.text.isEmpty())
             Snackbar.make(findViewById(R.id.root_layout),R.string.snackbar_message_1,Snackbar.LENGTH_LONG).show()
         else {
             val op = (v as Button).text.toString()
