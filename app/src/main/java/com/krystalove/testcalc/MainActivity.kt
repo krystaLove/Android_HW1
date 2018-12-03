@@ -13,6 +13,11 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        addButton.setOnClickListener{v -> calculate(v)}
+        subtractButton.setOnClickListener{v -> calculate(v)}
+        multiplyButton.setOnClickListener{v -> calculate(v)}
+        divideButton.setOnClickListener{v -> calculate(v)}
     }
 
     fun calculate(v: View) {

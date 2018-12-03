@@ -48,29 +48,29 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:text="@string/add_sign"
-            android:onClick="calculate"
+            android:id="@+id/addButton"
             android:textSize="45sp"
             style="@style/Base.Widget.AppCompat.Button.Colored"/>
         <Button
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:text="@string/subtract_sign"
+            android:id="@+id/subtractButton"
             android:textSize="45sp"
-            android:onClick="calculate"
             style="@style/Base.Widget.AppCompat.Button.Colored"/>
         <Button
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:text="@string/multiply_sign"
             android:textSize="45sp"
-            android:onClick="calculate"
+            android:id="@+id/multiplyButton"
             style="@style/Base.Widget.AppCompat.Button.Colored"/>
         <Button
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:textSize="45sp"
+            android:id="@+id/divideButton"
             android:text="@string/divide_sign"
-            android:onClick="calculate"
             style="@style/Base.Widget.AppCompat.Button.Colored"/>
     </GridLayout>
 
